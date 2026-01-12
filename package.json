@@ -89,4 +89,7 @@
       "test/**/*"
     ]
   }
+  "scripts": {
+        "postinstall": "cd functions/staticman && yarn --production"
+  }
 }
