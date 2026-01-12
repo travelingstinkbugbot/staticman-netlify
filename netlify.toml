@@ -1,7 +1,8 @@
 
 [build]
-  command = "npm install && npm run build"
+  command = "yarn build"
   functions = "functions"
+  publish = "build"
 [context.production]
     environment = {}
 [build.environment]
