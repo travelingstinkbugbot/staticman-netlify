@@ -13,7 +13,7 @@
     "test-dev": "TEST_DEV=true jest --watch"
   },
   "engines": {
-    "node": ">=8.11.3"
+    "node": ">=18 <19"
   },
   "repository": {
     "type": "git",
